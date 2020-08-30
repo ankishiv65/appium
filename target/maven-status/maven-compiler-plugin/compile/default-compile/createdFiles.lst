@@ -1,0 +1,6 @@
+AppiumFull\Appium\base.class
+Resources\Listeners.class
+Resources\ExtentReporterNG.class
+AppiumFull\Appium\utility.class
+PageObjects\APIdemos.class
+PageObjects\ecommerce.class

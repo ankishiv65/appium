@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Resources.Listeners"/>
+<listener class-name="Resources.ExtentReporterNG"/>
+</listeners>
+  
+  
+  
+  
+  <test thread-count="5" name="Test">
+  <classes>
+  <class name="AppiumFull.Appium.appiumlocators"/>
+  <class name="AppiumFull.Appium.e_commerce_endtoend"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

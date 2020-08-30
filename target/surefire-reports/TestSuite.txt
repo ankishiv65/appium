@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 142.917 s <<< FAILURE! - in TestSuite
+ecommmmmm(AppiumFull.Appium.e_commerce_endtoend)  Time elapsed: 46.206 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U21IBB6', ip: '192.168.225.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, deviceName: Redmi 6, platformName: android, udid: 4588a8e87d29}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Redmi 6, deviceName: 4588a8e87d29, deviceScreenDensity: 320, deviceScreenSize: 720x1440, deviceUDID: 4588a8e87d29, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 48, takesScreenshot: true, udid: 4588a8e87d29, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 92c00f7f-0864-4cad-ae25-b29378b7860b
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text("Aruba"));}
+	at AppiumFull.Appium.e_commerce_endtoend.ecommmmmm(e_commerce_endtoend.java:32)
+
+ecommmmmm(AppiumFull.Appium.e_commerce_endtoend)  Time elapsed: 46.185 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U21IBB6', ip: '192.168.225.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, deviceName: Redmi 6, platformName: android, udid: 4588a8e87d29}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Redmi 6, deviceName: 4588a8e87d29, deviceScreenDensity: 320, deviceScreenSize: 1440x720, deviceUDID: 4588a8e87d29, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 48, takesScreenshot: true, udid: 4588a8e87d29, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: e9a68a3b-c9a2-4119-9c6d-bff665b78476
+	at AppiumFull.Appium.e_commerce_endtoend.ecommmmmm(e_commerce_endtoend.java:36)
+
